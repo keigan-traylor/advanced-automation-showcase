@@ -1,0 +1,36 @@
+{
+  "vms": [
+    {
+      "name": "web-01",
+      "host": "esxi-1",
+      "power_state": "poweredOn",
+      "snapshots": 2,
+      "disks_gb": 40,
+      "notes": ""
+    },
+    {
+      "name": "db-01",
+      "host": "esxi-2",
+      "power_state": "poweredOn",
+      "snapshots": 5,
+      "disks_gb": 200,
+      "notes": "critical DB"
+    },
+    {
+      "name": "dev-01",
+      "host": "esxi-2",
+      "power_state": "poweredOff",
+      "snapshots": 0,
+      "disks_gb": 20,
+      "notes": ""
+    },
+    {
+      "name": "orphan-disk-01",
+      "host": null,
+      "power_state": "unknown",
+      "snapshots": 0,
+      "disks_gb": 500,
+      "notes": "detached disk"
+    }
+  ]
+}
