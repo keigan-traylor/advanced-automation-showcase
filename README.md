@@ -13,4 +13,4 @@ Each project contains:
 - `sample_data/` 
 - `README.md` per project with usage instructions 
 
-These projects are designed to demonstrate a high-level technical understanding of relevant topics. They show architecture, automation, error-handling, logging, reproducible outputs, and polished visual artifacts (PNG/HTML) you can present.
+These projects are designed to demonstrate a high-level technical understanding of relevant topics. They show architecture, automation, error-handling, logging, reproducible outputs, and polished visual artifacts.
